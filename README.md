@@ -4,10 +4,15 @@
 
 ## Dependence
 CentOS Linux release 7.9.2009
+<br>
 gcc 8.2.0
+<br>
 libprotoc 3.5.1
+<br>
 mysql++
+<br>
 redis++
+<br>
 mysqlclient
 <br>
 
