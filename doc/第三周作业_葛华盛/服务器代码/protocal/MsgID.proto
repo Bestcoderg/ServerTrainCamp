@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+enum MSGID
+{
+    MSG_TEST = 1005,
+    MSG_ATTACK = 1006,
+
+
+}

@@ -1,0 +1,13 @@
+﻿public enum KeyboardState
+{
+    Ctrl = 0x1,
+    Shift = 0x2,
+    Jump = 0x4,
+    Up = 0x8,
+    Down = 0x10,
+    Left = 0x20,
+    Right = 0x40,
+    Q = 0x80,
+    E = 0x100,
+    R = 0x200
+}

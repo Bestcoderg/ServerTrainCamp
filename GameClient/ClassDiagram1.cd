@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Buff.MsgInfo">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAABACAAAAABAAAAAhAAQABAAAAAAAAAA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buff.Buffers">
+    <Position X="41" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFgAACKAABABQEgAIAAAAIAASABQEIQAAACYAAACgA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSpec.BagItem" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAiCUAABKZEhCAAAAQAEEEAAIAgAIAAAAgAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.CurrencyItem" BaseTypeListCollapsed="true">
+    <Position X="33" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAiCEAABCZEhCAAAAQAEEEAAIAgAIAAAAgAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.BagInfo" BaseTypeListCollapsed="true">
+    <Position X="36.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACACAEgAECYEgAgIAAQACEEAAIUgAAAABAAAAFA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.Players" BaseTypeListCollapsed="true">
+    <Position X="38.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEjAAAiIEAAACYEgAAACAwAAEEgAIAgAAABAAAAIhA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.AddItemReq" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACCEAABCYEhCAAAAQAAEEAAIAgAAAAAAAAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.AddItemRsp" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAEIAACYEgAAAAAAAAEEAAIAgAAIAAAAAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.CtlMsgLoginReq" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAEAAACYEgAAAAAwAAEEQAIAiAAAAAgAAIBA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.CtlMsgLoginRsp" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAEIAACYEgAAAAAAAAEEAAJAgAAIAAQAAAhA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.CtlMsgSearchReq" BaseTypeListCollapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAiAAACAEAAACYEgAAAAAwAAEEAAIAgAAAAAAAAIhA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.CtlMsgSearchRsp" BaseTypeListCollapsed="true">
+    <Position X="18" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAEIAACYEgAAAAAAAAEEAAJAgAAIAAQAAAhA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.RemoveItemReq" BaseTypeListCollapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACCEAABCYEhCAAAAQAAEGAAIAgAAAAEAAAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.RemoveItemRsp" BaseTypeListCollapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAEIAACYEgAAAAAAAAEEAAIAgAAIAAAAAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.RankReq" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAACAGAABCYkgAAAAAAAgEEAAIAgAEAAAAAAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameSpec.RankRsp" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAEIAACYEgAAAAAAAAEEAAIAgAAIAAAAAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TCPSocket.TCPSocketClient">
+    <Position X="42.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAMAAAAAAAAAgAAAQAAEgAAAAAAA=</HashCode>
+      <FileName>TCPSocketClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSpec.EquipItem" BaseTypeListCollapsed="true">
+    <Position X="34.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAIimUACBKZEhCAAAAQAEMEAAIAgAIAAABgAABA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="GameSpec.ErrorCode">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>GameSpec.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

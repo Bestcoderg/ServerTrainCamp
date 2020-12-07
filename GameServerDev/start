@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./LoginServer/bin/server 3000
+./GateServer/bin/server 3001
+./GateServer/bin/server 3002
+./DBServer/bin/server 3008
+./GameServer/bin/server 3003
+./GameServer/bin/server 3004
+
+
+

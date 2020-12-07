@@ -1,0 +1,6 @@
+
+message MsgTest{
+	required int32 id = 1;
+	required int32 uid = 2;
+	required string msg = 3;
+}

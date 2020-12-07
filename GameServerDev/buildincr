@@ -1,0 +1,65 @@
+#/bin/bash
+echo "create soft link ..." 
+rm -rf ./Client/protocal
+rm -rf ./LoginServer/protocal
+rm -rf ./GateServer/protocal
+rm -rf ./GameServer/protocal
+rm -rf ./DBServer/protocal
+
+#cp -r ./protocal ./oldserver/protocal
+#cp -r ./protocal ./LoginServer/protocal
+#cp -r ./protocal ./GateServer/protocal
+#cp -r ./protocal ./GameServer/protocal
+#cp -r ./protocal ./DBServer/protocal
+pushd ./Client
+ln -s ../protocal
+popd
+
+pushd ./LoginServer
+ln -s ../protocal 
+popd
+
+pushd ./GateServer
+ln -s ../protocal 
+popd
+
+pushd ./GameServer
+ln -s ../protocal 
+popd
+
+pushd ./DBServer
+ln -s ../protocal 
+popd
+
+echo "create soft link success!"
+echo "build all project ..."
+
+pushd ./Client
+cd build
+make -j4
+popd
+
+pushd ./LoginServer
+cd build
+make -j4
+popd
+
+pushd ./GateServer
+cd build
+make -j4
+popd
+
+pushd ./GameServer
+cd build
+make -j4
+popd
+
+pushd ./DBServer
+cd build
+make -j4
+popd
+
+
+
+
+
